@@ -1,0 +1,171 @@
+/* Media Query */
+@media only screen and (max-width: 1480px){
+    ul#nav li a {
+        padding: 12px 2px;
+    }
+
+    .header-wrapper {
+        margin: 3px 0;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    ul#nav li a {
+        font-size: 12px;
+    }
+
+    ul#nav li a {
+        font-size: 11px;
+    }
+
+    .mp-image-holder {
+        margin: 50px 0;
+    }
+
+    .dg-inner-holder {
+        margin: 0;
+    }
+
+    .au-inner {
+        margin: 0;
+    }
+
+    .hp-luxury-inner,
+    .stats-flex  {
+        margin: 0;
+    }
+
+    .bp-inner-bg {
+        margin: 0 0 100px;
+    }
+
+    .mp-inner p {
+        white-space: pre-wrap;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .header-logo img {
+        max-width: 89px;
+    }
+
+    ul#nav li a {
+        font-size: 9px;
+    }
+
+    .sp-descrip {
+        font-size: 13px;
+    }
+
+    .sp-inner-list span {
+        font-size: 60px;
+        padding: 0 0 10px;
+    }
+
+    .au-list h3 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .header-wrapper {
+        display: none;
+    }
+
+    .mobile-header{
+        display: block;
+    }
+
+    .mobile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        background: #000;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .dg-inner-holder,
+    .stats-flex,
+    .au-inner,
+    .hp-market-mid,
+    .hp-luxury-inner,
+    .stats-flex,
+    .luxury-logos,
+    .it-inner,
+    .itil-flex,
+    .footer-1,
+    .footer-bottom,
+    .footer-contact-flex,
+    .footer-smi-holder {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dg-inner-list,
+    .sp-inner-list,
+    .au-list,
+    .hp-market-mid .hp-market-list,
+    .hp-luxury-list,
+    .it-inner-left,
+    .it-inner-right,
+    .itil-list,
+    .footer-1-list {
+        width: 100%;
+    }
+
+    .sp-inner-list {
+        border-right: 1px solid transparent;
+    }
+
+    .luxury-img-logo img {
+        margin: 0 auto 30px;
+    }
+
+    .itil-icon img {
+        margin: 0 auto;
+    }
+
+    .footer-bottom,
+    .footer-smi-holder {
+        padding-right: 0;
+    }
+
+    .footer-realtor-holder {
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 568px){
+    section.hp-banner {
+        min-height: 480px;
+    }
+
+    .qs-inner {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .qs-input {
+        padding: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    section.marketing-plan-wrapper h2 {
+        font-size: 32px;
+    }
+
+    .dg-inner-list.lg-font h2 {
+        font-size: 28px;
+    }
+
+    .dg-inner-list ul li::after {
+        left: -11px;
+    }
+}
+
